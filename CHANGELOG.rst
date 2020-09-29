@@ -18,6 +18,7 @@ Changes
 
 Fix
 ~~~
+- Ntuple test fixed. [Kevin]
 - Typos in readme. [Kevin]
 - License badge. [Kevin]
 - Versioneer not properly configured. [Kevin]

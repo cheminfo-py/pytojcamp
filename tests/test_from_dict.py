@@ -11,7 +11,7 @@ def test_from_dict(make_data_dictionary):
 ##DATA TYPE=
 ##ORIGIN=
 ##OWNER=
-##NTUPLES=
+##NTUPLES= 
 ##VAR_NAME=  x,y,z
 ##SYMBOL=    x,y,z
 ##VAR_TYPE=  INDEPENDENT,DEPENDENT,DEPENDENT
