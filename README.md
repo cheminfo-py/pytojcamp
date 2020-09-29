@@ -4,7 +4,7 @@
 ![pre-commit](https://github.com/kjappelbaum/pytojcamp/workflows/pre-commit/badge.svg)
 [![codecov](https://codecov.io/gh/kjappelbaum/pytojcamp/branch/master/graph/badge.svg)](https://codecov.io/gh/kjappelbaum/pytojcamp)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pytojcamp)
-![GitHub](https://img.shields.io/github/license/kjappelbaum/pytojcamp)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![GitHub last commit](https://img.shields.io/github/last-commit/kjappelbaum/pytojcamp)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kjappelbaum/pytojcamp/master?filepath=examples%2Fexample.ipynb)
 
