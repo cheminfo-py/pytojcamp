@@ -18,7 +18,7 @@ This package allows converting Python data structures to JCAMP, this can make it
 To get the latest development version from the head use
 
 ```
-pip install git+
+pip install git+https://github.com/cheminfo-py/pytojcamp.git
 ```
 
 to install the latest stable release use
