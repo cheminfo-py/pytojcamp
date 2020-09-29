@@ -11,7 +11,7 @@
 Python to JCAMP converter. Inspired by [PyToJCAMP](https://github.com/cheminfo/convert-to-jcamp).
 
 Some tools work well with the [JCAMP](http://jcamp-dx.org/) format.
-This package allows to convert Python datastructures to JCAMP, this can make it easier for Python based webservices to interact with the [ELN](eln.epfl.ch).
+This package allows converting Python data structures to JCAMP, this can make it easier for Python based web services to interact with the [ELN](eln.epfl.ch).
 
 ## Installation
 
@@ -29,7 +29,7 @@ pip install pytojcamp
 
 ## Usage
 
-See the example notebooks, which you can try out on Binder.
+See the example notebooks, which you can [try out on Binder](https://mybinder.org/v2/gh/kjappelbaum/pytojcamp/master?filepath=examples%2Fexample.ipynb).
 
 ### x/y data
 
