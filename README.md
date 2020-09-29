@@ -2,10 +2,11 @@
 
 ![Python package](https://github.com/kjappelbaum/pytojcamp/workflows/Python%20package/badge.svg)
 ![pre-commit](https://github.com/kjappelbaum/pytojcamp/workflows/pre-commit/badge.svg)
-[![codecov](https://codecov.io/gh/kjappelbaum/pytojcamp/branch/master/graph/badge.svg?token=BL2CF4HQ06)](https://codecov.io/gh/kjappelbaum/PyPAL)
+[![codecov](https://codecov.io/gh/kjappelbaum/pytojcamp/branch/master/graph/badge.svg)](https://codecov.io/gh/kjappelbaum/pytojcamp)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pytojcamp)
 ![GitHub](https://img.shields.io/github/license/kjappelbaum/pytojcamp)
 ![GitHub last commit](https://img.shields.io/github/last-commit/kjappelbaum/pytojcamp)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kjappelbaum/pytojcamp/master?filepath=examples%2Fexample.ipynb)
 
 Python to JCAMP converter. Inspired by [PyToJCAMP](https://github.com/cheminfo/convert-to-jcamp).
 
