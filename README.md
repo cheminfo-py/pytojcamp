@@ -40,7 +40,30 @@ from pytojcamp import from_xy
 jcamp_string = from_xy((x,y))
 ```
 
-## n-tuples
+## multicolumn data
 
-To be implemented.
-s
+For multicolumn data you can use
+
+```python
+from pytojcamp import from_dict
+
+data_dictionaries = {
+    'x' : {
+        'data': [1,2,3],
+        'type': 'INDEPENDENT',
+        'unit': 'cm'
+    },
+    'y' : {
+        'data': [3,2,3],
+        'type': 'DEPENDENT',
+        'unit': 'h'
+    },
+    'z' : {
+        'data': [3,2,3],
+        'type': 'DEPENDENT',
+        'unit': 'kg'
+    }
+}
+
+jcamp_string = from_dict(data_dictionaries)
+```

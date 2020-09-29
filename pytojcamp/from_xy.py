@@ -4,7 +4,8 @@ from typing import Iterable, Tuple, Union
 
 import numpy as np
 
-from .constants import ADDITIONAL_META, HEADER
+from .constants import HEADER
+from .utils import _format_additional_header
 
 
 def from_xy(  # pylint:disable=too-many-arguments, too-many-locals
@@ -64,16 +65,7 @@ def from_xy(  # pylint:disable=too-many-arguments, too-many-locals
     }
 
     header = HEADER.format(**header_dict)
-    additional_header = ""
-    if meta is not None:
-        try:
-            for key, value in meta.items():
-                additional_header += ADDITIONAL_META.format(key=key, value=value)
-        except AttributeError:
-            raise ValueError(
-                "If you provide metadata, you need to provide it as dictionary"
-            )
-
+    additional_header = _format_additional_header(meta)
     point_list = "\n".join(points)
 
     full_jcamp = (
