@@ -2,14 +2,6 @@ Changelog
 =========
 
 
-(unreleased)
-------------
-
-Changes
-~~~~~~~
-- Chore: prepare v0.0.1. [Kevin]
-
-
 v0.0.1 (2020-10-01)
 -------------------
 
@@ -20,6 +12,8 @@ New
 
 Changes
 ~~~~~~~
+- Chore: prepare v0.0.1. [Kevin]
+- Chore: prepare v0.0.1. [Kevin]
 - Chore: updating readme. [Kevin]
 - Chore: updated readme. [Kevin]
 - Chore: added license. [Kevin]

@@ -8,6 +8,10 @@ import versioneer
 with open("requirements.txt", "r") as fh:
     REQUIREMENTS = [line.strip() for line in fh]
 
+with open("README.md") as f:
+    README = f.read()
+
+
 setup(
     name="pytocjcamp",
     version=versioneer.get_version(),
@@ -15,6 +19,8 @@ setup(
     packages=find_packages(),
     url="",
     license="MIT",
+    long_description=README,
+    long_description_content_type="text/markdown",
     python_requires=">=3.6",
     install_requires=REQUIREMENTS,
     extras_require={
