@@ -13,7 +13,7 @@ with open("README.md") as f:
 
 
 setup(
-    name="pytocjcamp",
+    name="pytojcamp",
     version=versioneer.get_version(),
     cmdclass=versioneer.get_cmdclass(),
     packages=find_packages(),
