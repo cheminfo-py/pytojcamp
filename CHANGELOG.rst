@@ -5,6 +5,14 @@ Changelog
 (unreleased)
 ------------
 
+Changes
+~~~~~~~
+- Chore: prepare v0.0.1. [Kevin]
+
+
+v0.0.1 (2020-10-01)
+-------------------
+
 New
 ~~~
 - Feat: initial ntuple implementation. [Kevin]
@@ -12,6 +20,8 @@ New
 
 Changes
 ~~~~~~~
+- Chore: updating readme. [Kevin]
+- Chore: updated readme. [Kevin]
 - Chore: added license. [Kevin]
 - Chore: pytest only one step in actions. [Kevin]
 - Chore: added example notebook. [Kevin]
