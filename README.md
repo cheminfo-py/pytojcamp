@@ -1,12 +1,12 @@
 # PyToJCAMP
 
-![Python package](https://github.com/kjappelbaum/pytojcamp/workflows/Python%20package/badge.svg)
-![pre-commit](https://github.com/kjappelbaum/pytojcamp/workflows/pre-commit/badge.svg)
-[![codecov](https://codecov.io/gh/kjappelbaum/pytojcamp/branch/master/graph/badge.svg)](https://codecov.io/gh/kjappelbaum/pytojcamp)
+![Python package](https://github.com/cheminfo-py/pytojcamp/workflows/Python%20package/badge.svg)
+![pre-commit](https://github.com/cheminfo-py/pytojcamp/workflows/pre-commit/badge.svg)
+[![codecov](https://codecov.io/gh/cheminfo-py/pytojcamp/branch/master/graph/badge.svg)](https://codecov.io/gh/cheminfo-py/pytojcamp)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pytojcamp)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-![GitHub last commit](https://img.shields.io/github/last-commit/kjappelbaum/pytojcamp)
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kjappelbaum/pytojcamp/master?filepath=examples%2Fexample.ipynb)
+![GitHub last commit](https://img.shields.io/github/last-commit/cheminfo-py/pytojcamp)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cheminfo-py/pytojcamp/master?filepath=examples%2Fexample.ipynb)
 
 Python to JCAMP converter. Inspired by [PyToJCAMP](https://github.com/cheminfo/convert-to-jcamp).
 
