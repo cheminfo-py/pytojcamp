@@ -1,5 +1,6 @@
 # PyToJCAMP
 
+[![Documentation Status](https://readthedocs.org/projects/pytojcamp/badge/?version=latest)](https://pytojcamp.readthedocs.io/en/latest/?badge=latest)
 ![Python package](https://github.com/cheminfo-py/pytojcamp/workflows/Python%20package/badge.svg)
 ![pre-commit](https://github.com/cheminfo-py/pytojcamp/workflows/pre-commit/badge.svg)
 [![codecov](https://codecov.io/gh/cheminfo-py/pytojcamp/branch/master/graph/badge.svg)](https://codecov.io/gh/cheminfo-py/pytojcamp)
