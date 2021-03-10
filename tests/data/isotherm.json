@@ -1,0 +1,90 @@
+{
+    "Density": 0.175332,
+    "Input_ha": "DEF",
+    "POAV_A^3": 8379.82,
+    "isotherm": {
+        "pressure": [
+            0.001,
+            2.001,
+            4.001,
+            6.001,
+            8.001,
+            10.0
+        ],
+        "pressure_unit": "bar",
+        "loading_absolute_dev": [
+            0.00025566831323035,
+            0.014433723430904,
+            0.039043653433378,
+            0.037452903963134,
+            0.048911966667102,
+            0.060444081428841
+        ],
+        "loading_absolute_unit": "mol/kg",
+        "loading_absolute_average": [
+            0.0001754923683975,
+            0.4340427677237,
+            0.86650610413183,
+            1.2735982581373,
+            1.7054097657486,
+            2.1091174240778
+        ],
+        "enthalpy_of_adsorption_dev": [
+            null,
+            0.047308930516409,
+            0.12657872506714,
+            0.10488590955576,
+            0.077848286814164,
+            0.16125728135159
+        ],
+        "enthalpy_of_adsorption_unit": "kJ/mol",
+        "enthalpy_of_adsorption_average": [
+            null,
+            -5.9252863069849,
+            -5.9072771112386,
+            -6.0146716220598,
+            -5.9350161715431,
+            -6.0147703142019
+        ]
+    },
+    "PONAV_A^3": 0.0,
+    "is_porous": true,
+    "Input_block": [
+        1.865,
+        100
+    ],
+    "Input_volpo": [
+        1.865,
+        1.865,
+        100000
+    ],
+    "POAV_cm^3/g": 5.06053,
+    "temperature": 400,
+    "Density_unit": "g/cm^3",
+    "PONAV_cm^3/g": 0.0,
+    "is_kh_enough": true,
+    "POAV_A^3_unit": "A^3",
+    "PONAV_A^3_unit": "A^3",
+    "Unitcell_volume": 9444.5,
+    "POAV_cm^3/g_unit": "cm^3/g",
+    "temperature_unit": "K",
+    "PONAV_cm^3/g_unit": "cm^3/g",
+    "POAV_Volume_fraction": 0.88727,
+    "Unitcell_volume_unit": "A^3",
+    "PONAV_Volume_fraction": 0.0,
+    "henry_coefficient_dev": 1.40933e-09,
+    "henry_coefficient_unit": "mol/kg/Pa",
+    "Input_structure_filename": "tmpji5iydjq.cif",
+    "POAV_Volume_fraction_unit": null,
+    "henry_coefficient_average": 2.15046e-06,
+    "Number_of_blocking_spheres": 0,
+    "PONAV_Volume_fraction_unit": null,
+    "adsorption_energy_widom_dev": 0.0024799902,
+    "Estimated_saturation_loading": 137.646416,
+    "adsorption_energy_widom_unit": "kJ/mol",
+    "adsorption_energy_widom_average": -2.5418001158,
+    "Estimated_saturation_loading_unit": "mol/kg",
+    "conversion_factor_molec_uc_to_mg_g": 16.0851290812,
+    "conversion_factor_molec_uc_to_mol_kg": 1.0028135337,
+    "conversion_factor_molec_uc_to_cm3stp_cm3": 3.9408409274
+}

@@ -6,6 +6,7 @@ from pytojcamp.from_dict import from_dict
 def test_from_dict(make_data_dictionary):
     """Test the conversion based on a data dict"""
     jcamp_string = from_dict(make_data_dictionary)
+
     expected_string = """##TITLE=
 ##JCAMP-DX=6.00
 ##DATA TYPE=
@@ -18,9 +19,11 @@ def test_from_dict(make_data_dictionary):
 ##VAR_DIM=   3,3,3
 ##UNITS=     cm,h,kg
 ##PAGE= N=1
-##DATA TABLE= (x,y,z..x,y,z), PEAKS
-1\t2\t3
-3\t2\t3
-3\t2\t3
+##DATA TABLE= (xyz..xyz), PEAKS
+1\t3\t3
+2\t2\t2
+3\t3\t3
 ##END"""
+    print(jcamp_string)
+    print(expected_string)
     assert jcamp_string == expected_string

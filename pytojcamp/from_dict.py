@@ -116,15 +116,21 @@ def from_dict(  # pylint:disable=too-many-arguments,too-many-locals
         dataType=data_type,
     )
 
-    peak_table_header = SYMBOL_LIST_NTUPLE.format(symbols=",".join(symbols))
+    peak_table_header = SYMBOL_LIST_NTUPLE.format(symbols="".join(symbols))
 
-    point_lists = "\n".join(["\t".join([str(p) for p in points]) for points in datas])
+    point_lists = []
+    for i in range(len(datas[0])):
+        sublist = []
+        for column in datas:
+            sublist.append(str(column[i]))
+
+        point_lists.append("\t".join(sublist))
 
     jcamp_string = (
         header
         + ntuple_page_header
         + peak_table_header
-        + point_lists
+        + "\n".join(point_lists)
         + "\n"
         + END_STRING
     )

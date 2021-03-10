@@ -25,7 +25,12 @@ setup(
     install_requires=REQUIREMENTS,
     extras_require={
         "testing": ["pytest", "pytest-cov<2.11"],
-        "docs": ["guzzle_sphinx_theme"],
+        "docs": [
+            "Sphinx",
+            "sphinx-book-theme",
+            "sphinx-autodoc-typehints",
+            "sphinx-copybutton",
+        ],
         "pre-commit": [
             "pre-commit",
             "black",
