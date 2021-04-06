@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.0](https://www.github.com/cheminfo-py/pytojcamp/compare/v0.0.4...v0.1.0) (2021-04-06)
+
+
+### Features
+
+* throw error when x is missing ([2d4257e](https://www.github.com/cheminfo-py/pytojcamp/commit/2d4257e83c61728b928f180633550d3e278e12e7))
+
 ### [0.0.4](https://www.github.com/cheminfo-py/pytojcamp/compare/v0.0.3...v0.0.4) (2021-03-10)
 
 
