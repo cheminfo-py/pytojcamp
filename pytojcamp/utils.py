@@ -5,6 +5,10 @@ from typing import Union
 from .constants import ADDITIONAL_META
 
 
+class InvalidNtupleError(ValueError):
+    pass
+
+
 def _format_additional_header(meta: Union[dict, None]) -> str:
     """Create a multiline string for all the metadata
 

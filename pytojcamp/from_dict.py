@@ -3,7 +3,7 @@
 import numpy as np
 
 from .constants import END_STRING, NTUPLE_HEADER, NTUPLE_PAGE_HEADER, SYMBOL_LIST_NTUPLE
-from .utils import _format_additional_header
+from .utils import InvalidNtupleError, _format_additional_header
 
 
 def _process_data_dict(
@@ -81,6 +81,9 @@ def from_dict(  # pylint:disable=too-many-arguments,too-many-locals
         data_type (str, optional):  Defaults to "".
         meta (dict, optional):  Defaults to None.
 
+    Raises:
+        InvalidTupleError: In case x/y keys are missing
+
     Returns:
         str: [description]
     """
@@ -107,6 +110,10 @@ def from_dict(  # pylint:disable=too-many-arguments,too-many-locals
         var_dims.append(str(new_data_dict[data_dictionary_key]["dimension"]))
         types.append(new_data_dict[data_dictionary_key]["type"])
 
+    if "x" not in symbols:
+        raise InvalidNtupleError("You must have the x symbol in your dictionary")
+    if "y" not in symbols:
+        raise InvalidNtupleError("You must have the y symbol in your dictionary")
     ntuple_page_header = NTUPLE_PAGE_HEADER.format(
         varName=",".join(var_names),
         symbol=",".join(symbols),

@@ -33,7 +33,7 @@ The easiest way to write JCAMP-DX files with multiple columns is to use the :py:
 .. code-block:: python
 
     jcamp = from_dict({
-    'p': {
+    'x': {
         "data": d['isotherm']["pressure"],
         "unit": d['isotherm']["pressure_unit"],
         "type": "INDEPENDENT"
@@ -47,4 +47,5 @@ The easiest way to write JCAMP-DX files with multiple columns is to use the :py:
         data_type='Adsorption Isotherm',
         meta={'adsorptive': 'N2'})
 
-This will create data in the form :code:`DATA TABLE= (py...py), PEAKS` And add the :code:`OWNER`, :code:`ORIGIN`, :code:`TITLE` of the CORE section of the JCAMP-DX files.
+This will create data in the form :code:`DATA TABLE= (xy...xy), PEAKS` And add the :code:`OWNER`, :code:`ORIGIN`, :code:`TITLE` of the CORE section of the JCAMP-DX files.
+Note that you always need to have the :code:`x` and :code:`y` keys in your dictionary.
